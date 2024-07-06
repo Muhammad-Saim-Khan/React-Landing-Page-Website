@@ -7,13 +7,13 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
-
+import Logo from "../public/logo.png";
 function NavScrollExample() {
   return (
     <Navbar expand="lg" className="bg-body-white">
       <Container fluid>
         <Navbar.Brand className="logo" href="#">
-          <img src="../src/assets/images/logo.png" alt="" />
+          <img src={Logo} alt="" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

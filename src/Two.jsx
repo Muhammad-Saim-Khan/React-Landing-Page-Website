@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
 import Button from "./botton";
-
+import Platform1 from "../public/one.png";
 export default function Platform() {
   return (
     <div className="container-fluid px-4 mt-5 ">
       <div className="row gap-1 ">
         <div className="col-lg-6 col-12 ">
-          <img src="../src/assets/images/one.png" alt="" className="w-100" />
+          <img src={Platform1} alt="" className="w-100" />
         </div>
         <div className="col-lg-5 d-flex flex-column px-2 px-lg-5 py-5">
           <div className={"PlatformHead"}>

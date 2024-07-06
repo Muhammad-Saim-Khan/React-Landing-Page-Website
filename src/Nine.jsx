@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Logo1 from "../public/logo2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEnvelope,
@@ -11,13 +12,14 @@ import {
   faFacebookF,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
+
 export default function Footer() {
   return (
     <div className="container-fluid COlor px-5 py-5 mt-5">
       <div className="row row-gap-4">
         <div className="col-lg-3 text-white d-flex flex-column gap-3 px-0 px-md-5">
           <div>
-            <img src="../src/assets/images/logo2.png" alt="" />
+            <img src={Logo1} alt="" />
           </div>
           <p>
             There are course and event custom post types so you can easily

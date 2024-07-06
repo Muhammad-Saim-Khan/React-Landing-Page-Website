@@ -1,11 +1,15 @@
 import React from "react";
 import "./App.css";
 import Button from "./botton";
+import Course1 from "../public/Course1.png";
+import Course2 from "../public/Course2.png";
+import Course3 from "../public/Course3.png";
+import Course4 from "../public/Course4.png";
 
 export default function Courses() {
   const Courses = [
     {
-      src: "../src/assets/images/Course1.png",
+      src: Course1,
       name: "UX Design",
       lesson: "5 lesseons",
       title: "Dave conservatoire is the Entirely free online",
@@ -13,7 +17,7 @@ export default function Courses() {
       price: "$72.00",
     },
     {
-      src: "../src/assets/images/Course2.png",
+      src: Course2,
       name: "UX Design",
       lesson: "5 lesseons",
       title: "Strategy law and Organization foundation",
@@ -21,7 +25,7 @@ export default function Courses() {
       price: "$68.00",
     },
     {
-      src: "../src/assets/images/Course3.png",
+      src: Course3,
       name: "UX Design",
       lesson: "5 lesseons",
       title: "Python for Data Science & Machine Learning",
@@ -29,7 +33,7 @@ export default function Courses() {
       price: "$86.00",
     },
     {
-      src: "../src/assets/images/Course4.png",
+      src: Course4,
       name: "UX Design",
       lesson: "4 lesseons",
       title: "The complete web develop Ment bootcamp.",
@@ -44,7 +48,7 @@ export default function Courses() {
         <div className="row">
           <div className="col-12 d-flex flex-column align-items-center ">
             <h1 className={"heading"}>Popular Courses</h1>
-            <img src="../src/assets/images/strip.png" alt="" />
+            <img src="../public/strip.png" alt="" />
           </div>
         </div>
       </div>

@@ -1,14 +1,12 @@
 import Carousel from "react-bootstrap/Carousel";
+import Slider1 from "../public/slider1.jpg";
+import Slider2 from "../public/slider2.jpg";
 
 function DarkVariantExample() {
   return (
     <Carousel data-bs-theme="dark">
       <Carousel.Item className="Slider">
-        <img
-          className="d-block w-100"
-          src="../src/assets/images/slider1.jpg"
-          alt="First slide"
-        />
+        <img className="d-block w-100" src={Slider1} alt="First slide" />
         <Carousel.Caption>
           <h3 className="Sliderh4">Great Quality Cocial life</h3>
           <h1 className="Sliderh1">
@@ -19,11 +17,7 @@ function DarkVariantExample() {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="Slider">
-        <img
-          className="d-block w-100"
-          src="../src/assets/images/slider2.jpg"
-          alt="Second slide"
-        />
+        <img className="d-block w-100" src={Slider2} alt="Second slide" />
         <Carousel.Caption>
           <h3 className="Sliderh4">Great Quality Cocial life</h3>
           <h1 className="Sliderh1">

@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import Card1 from "./assets/images/Card1.png";
-import Card2 from "./assets/images/Card2.png";
-import Card3 from "./assets/images/Card3.png";
-import Card4 from "./assets/images/Card4.png";
-
+import Card1 from "../public/Card1.png";
+import Card2 from "../public/Card2.png";
+import Card3 from "../public/Card3.png";
+import Card4 from "../public/Card4.png";
+import Card5 from "../public/strip.png";
 export default function Cards() {
   const cardObj = [
     {
@@ -32,7 +32,7 @@ export default function Cards() {
         <div className="row">
           <div className="col-12 d-flex flex-column align-items-center ">
             <h1 className={"heading"}>Academics</h1>
-            <img src="../src/assets/images/strip.png" alt="" />
+            <img src={Card5} alt="" />
           </div>
         </div>
       </div>

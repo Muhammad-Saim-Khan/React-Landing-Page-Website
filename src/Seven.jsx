@@ -2,6 +2,8 @@ import React from "react";
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import Review1 from "../public/strip.png";
+import Review2 from "../public/Three.png";
 
 export default function Review() {
   return (
@@ -12,7 +14,7 @@ export default function Review() {
             <div className="row">
               <div className="col-12 d-flex flex-column align-items-center ">
                 <h1 className={"heading"}>What our student saying</h1>
-                <img src="../src/assets/images/strip.png" alt="" />
+                <img src={Review1} alt="" />
               </div>
             </div>
           </div>
@@ -21,7 +23,7 @@ export default function Review() {
       <div className={"row row-gap-5 reviewContain px-0 px-md-3 py-4 mt-5"}>
         <div className="col-12 col-lg-3 text-center text-lg-start">
           <div className="px-0 px-md-3">
-            <img src="../src/assets/images/Three.png" />
+            <img src={Review2} />
           </div>
         </div>
         <div className="col-12 col-lg-7 d-flex flex-column gap-4 text-center text-lg-start">

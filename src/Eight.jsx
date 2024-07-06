@@ -2,32 +2,35 @@ import React from "react";
 import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
+import Blog1 from "../public/Blog1.jpg";
+import Blog2 from "../public/Blog2.jpg";
+import Blog3 from "../public/Blog3.jpg";
 
 export default function Blogs() {
   const blogObj = [
     {
-      src: "../src/assets/images/Blog1.jpg",
+      src: Blog1,
       date: "April 18",
       heading: "Education",
       title: "Kids future Schools & Corona Prevent to Growth",
       author: "Charlie Doyle",
     },
     {
-      src: "../src/assets/images/Blog2.jpg",
+      src: Blog2,
       date: "April 18",
       heading: "Education",
       title: "Echooling future Schools & social Innovation",
       author: "Charlie Doyle",
     },
     {
-      src: "../src/assets/images/Blog3.jpg",
+      src: Blog3,
       date: "April 18",
       heading: "Education",
       title: "7 Learning system design tips For better eLearning",
       author: "Charlie Doyle",
     },
     {
-      src: "../src/assets/images/Blog1.jpg",
+      src: Blog1,
       date: "April 18",
       heading: "Education",
       title: "Why schools should continue remote study",
@@ -42,7 +45,7 @@ export default function Blogs() {
             <div className="row">
               <div className="col-12 d-flex flex-column align-items-center ">
                 <h1 className={"heading"}>Echooling News and Blogs</h1>
-                <img src="../src/assets/images/strip.png" alt="" />
+                <img src="../public/strip.png" alt="" />
               </div>
             </div>
           </div>
